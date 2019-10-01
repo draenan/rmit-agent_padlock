@@ -1,0 +1,6 @@
+{
+  "description": "Allows updates to the puppet-agent package.",
+  "supports_noop": false,
+  "input_method": "stdin",
+  "parameters": { }
+}

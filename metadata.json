@@ -1,0 +1,30 @@
+{
+  "name": "rmit-agent_padlock",
+  "version": "0.1.0",
+  "author": "rmit",
+  "summary": "Puppet Task to prevent/allow updates of the puppet-agent package.",
+  "license": "BSD-3-Clause",
+  "source": "https://stash.its.rmit.edu.au/unix/agent_padlock",
+  "dependencies": [
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6.0"
+      ]
+    },
+    {
+      "operatingsystem": "Solaris",
+      "operatingsystemrelease": [
+        "11.0"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ]
+}
